@@ -1,0 +1,61 @@
+## Using Git for a coding dojo
+
+[![](images/view_git-logo.png)](http://andyjeffries.co.uk/uploads/articles/33/view_git-logo.png?1258471726)
+
+**Create a git repository (github, Bitbucket or assembla.com)**
+
+1) Get everyone to fork the project
+
+2) Commit changes at suitable intervals during the coding dojo, especially before a refactor.  Using lots of small commits will allow people to follow your thinking process and not just the result.
+
+3) Push the code to your forked project.
+
+**  
+**  
+**Alternatively**
+
+1) Clone the project
+
+2) Carry out the work and do regular commits (but no pushes)
+
+3) Assign a new remote to the local master repository, using the address of your fork
+
+4)Push your changes to the fork repository
+
+**An example**
+
+johnny@Delenn:~$ cd projects/clojure/dojo-ants/
+
+johnny@Delenn:~/projects/clojure/dojo-ants$ ls  
+project.clj  README  src  test
+
+johnny@Delenn:~/projects/clojure/dojo-ants$ git remote  
+origin
+
+johnny@Delenn:~/projects/clojure/dojo-ants$ git remote add jr0cket-dojo-ants git@github.com:jr0cket/dojo-ants.git
+
+johnny@Delenn:~/projects/clojure/dojo-ants$ git remote  
+jr0cket-dojo-ants  
+origin
+
+johnny@Delenn:~/projects/clojure/dojo-ants$ git status  
+# On branch master  
+nothing to commit (working directory clean)
+
+johnny@Delenn:~/projects/clojure/dojo-ants$ ls  
+project.clj  README  src  test
+
+johnny@Delenn:~/projects/clojure/dojo-ants$ cd src/dojo_ants/
+
+johnny@Delenn:~/projects/clojure/dojo-ants/src/dojo_ants$ less core.clj
+
+johnny@Delenn:~/projects/clojure/dojo-ants/src/dojo_ants$ git push jr0cket-dojo-ants master  
+Counting objects: 19, done.  
+Delta compression using up to 4 threads.  
+Compressing objects: 100% (5/5), done.  
+Writing objects: 100% (10/10), 1.46 KiB, done.  
+Total 10 (delta 0), reused 10 (delta 0)  
+To git@github.com:jr0cket/dojo-ants.git  
+   f0ac8df..efd6b53  master -> master
+
+johnny@Delenn:~/projects/clojure/dojo-ants/src/dojo_ants$

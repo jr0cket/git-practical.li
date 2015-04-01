@@ -1,0 +1,11 @@
+## The Git Father - a forking badass t-shirt
+
+The Git Father.  The only t-shirt to wear when teaching other people who to use git and Github. 
+
+[![](images/the-git-father-forking-badass-clearvision.png)](http://1.bp.blogspot.com/-l8pchRzUta0/UO2ZNVdVokI/AAAAAAAAI4I/BU5cyWtJmeA/s1600/the-git-father-forking-badass-clearvision.png)
+
+_One day I will actually iron my t-shirts :)_
+
+Thanks to [Clearvision](http://www.clearvision-cm.com/) for creating such a great t-shirt.  Check out their [Go Git website](http://www.go-git.com/) for ideas on adopting git in your organisation. 
+
+| [About](http://john.jr0cket.co.uk/) | [Blog](http://blog.jr0cket.co.uk/) | [@JR0cket](http://www.twitter.com/jr0cket) | [Google+](https://plus.google.com/117080433375668558463/) | [LinkedIn](http://uk.linkedin.com/in/jr0cket) |

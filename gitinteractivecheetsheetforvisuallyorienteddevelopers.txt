@@ -1,0 +1,17 @@
+## Git interactive cheetsheet for visually oriented developers
+
+Sometimes reading a big book or looking at a long list of commands is the last thing you want to do when discovering how to use a new tool.  So it was great to find a very visual way to show the git commands and how they work.  
+
+
+## Git Interactive Cheetsheet
+
+The [Git Interactive Cheetsheet](http://ndpsoftware.com/git-cheatsheet.html) from [NDP Software](http://ndpsoftware.com/) does exactly that.  By clicking on different stages of your development workflow, you can see the related commands that you can use.  Hover over a specific command and you get a short description of what it will do.  The site also shows you the direction in which those commands work, supporting your understanding of those commands.
+
+[![](images/git-interactive-cheetsheet-local-repo-commands.png)](http://2.bp.blogspot.com/-J9v-PxiEsUc/UQaNN7xzNxI/AAAAAAAAI9s/RvGXB5Q68fw/s1600/git-interactive-cheetsheet-local-repo-commands.png)
+
+  
+It would be great if more tools have this kind of visualisation around them, especially involving the developer workflow that they support.
+
+What visualisations do you like?  Let me know...
+
+| [About](http://john.jr0cket.co.uk/) | [Blog](http://blog.jr0cket.co.uk/) | [@JR0cket](http://www.twitter.com/jr0cket) | [Google+](https://plus.google.com/117080433375668558463/) | [LinkedIn](http://uk.linkedin.com/in/jr0cket) |

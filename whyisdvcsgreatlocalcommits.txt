@@ -1,0 +1,31 @@
+## Why is DVCS great - Local commits
+
+With a centralised version control system (VCS) like Subversion and CVS you cant start to make commits without creating a repository on the server first.
+
+This limitation is a major pain if you are:  
+
+
+  * Off-line
+  * Not the administrator
+  * Have forgotten how to do it and cant find the docs
+  * Are the administrator and its so long ago you don't remember your password
+  * Some one else has to approve it
+
+[![](images/git-logo-vertical.png)](http://4.bp.blogspot.com/-SAdRyX6xiDw/T2ENelQF52I/AAAAAAAAGKs/F1VH7LPiJEk/s1600/git-logo-vertical.png)
+
+With a distributed version control system (DVCS) you can create a local repository by simply using the command **git init** in your project folder.  You can then check the status of your code changes against that added and committed to your local repository.
+
+Straight away you can managing versions of your files and have a very detailed history of what you have been up to (and why).
+
+This is a great way to just get on with the coding and not have to worry about setting up a repo.
+
+[![](images/source-code-history-visualisation--gource-project-banshee.png)](http://4.bp.blogspot.com/-orXHjBQnR_k/T2ENy3lP20I/AAAAAAAAGK0/2MfvKK9-CN0/s1600/source-code-history-visualisation--gource-project-banshee.png)Even though you can get on-line SVN repositories, they still need several minutes to configure - and by the time you have spent setting it all up you have lost your train of thought as to what you were coding.
+
+Using git and a local repository you can create versions from the first line of code (or test) and push your code to a shared space when there is something worth sharing.
+
+Even sharing is relatively easy.  You can create a git archive file of your code with all the version history and email it.  More likely is you create a new repository on your GitHub account and add this repository as a remote repository (called origin by default) to your local repository.  You can then push your changes to the on-line repo for the world to enjoy.
+
+This is just one reason I like Git, Mercurial and Bazaar over Subversion and CVS.
+
+P.s.  The visual picture of the DVCS history is from a great little tool called [gource](http://code.google.com/p/gource/), check it out.  
+
